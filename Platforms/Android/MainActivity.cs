@@ -8,4 +8,5 @@ namespace MauiApp_TARgv23
     public class MainActivity : MauiAppCompatActivity
     {
     }
+    
 }

@@ -14,7 +14,7 @@ public partial class TextPage : ContentPage
 		{
 			Text = "Pealkiri",
 			TextColor = Color.FromRgb(100, 10, 10),
-			FontFamily = "Socafe 400",
+			FontFamily = "Lobster Regular 400",
 			FontAttributes = FontAttributes.Bold,
 			TextDecorations=TextDecorations.Underline,
 			HorizontalTextAlignment=TextAlignment.Center,
