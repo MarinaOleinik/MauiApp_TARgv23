@@ -52,7 +52,7 @@ public partial class TablePage : ContentPage
 				{
 					new TextCell
 					{
-						Text="Siin saab veebelehe url lisada"
+						Text="Siia saab veebelehe url lisada"
 					},
 					new EntryCell
 					{
