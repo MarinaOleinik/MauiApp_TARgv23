@@ -9,6 +9,7 @@ public partial class DialogPage : ContentPage
     
 	public DialogPage()
 	{   
+
         Button alertButton = new Button
         {
             Text = "Teade",
@@ -57,7 +58,7 @@ public partial class DialogPage : ContentPage
             FontFamily = "Socafe 400"
         };
         alertQuestButton.Clicked += AlertQuestButton_Clicked;
-        Content = new StackLayout { Children = { alertButton, alertYesNoButton, alertListButton, alertQuestButton } };
+        Content = new StackLayout { Children = { alertButton, alertYesNoButton, alertListButton, alertQuestButton }};
     }
     //Lihne teade
     private void AlertButton_Clicked(object? sender, EventArgs e)

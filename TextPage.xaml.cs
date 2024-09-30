@@ -10,7 +10,9 @@ public partial class TextPage : ContentPage
 	List<string> buttons = new List<string> { "Tagasi", "Avaleht", "Edasi" };
     public TextPage( int k)
 	{
-		lbl = new Label
+        this.BackgroundImageSource = "background.jpg";
+		
+        lbl = new Label
 		{
 			Text = "Pealkiri",
 			TextColor = Color.FromRgb(100, 10, 10),

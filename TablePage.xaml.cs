@@ -10,6 +10,7 @@ public partial class TablePage : ContentPage
 	Button saada_email, saada_sms;
     public TablePage()
 	{
+		
 		sc = new SwitchCell { Text = "Teida/Kuva" };
         sc.OnChanged += Kuva_Peida_pilt;
 		ic = new ImageCell 
