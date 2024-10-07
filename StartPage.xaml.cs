@@ -2,8 +2,10 @@ namespace MauiApp_TARgv23;
 
 public partial class StartPage : ContentPage
 {
-	public List<ContentPage> lehed=new List<ContentPage>() { new TextPage(0), new FigurePage(1), new DateTimePage(2), new SliderStepperPage(3), new RGB_mudel(4), new PickerImagePage(5),new DialogPage(),new TablePage() , new FailidePage()};
-	public List<string> tekstid = new List<string> { "Tee lahti TextPage", "Tee lahti FigurePage","Tee lahti DateTimePage", "Tee lahti SliderStepperPage", "RGB mudeli leht" , "Leht piltidega","Ava dialoog aknad","Ava tabel", "Töö failidega"};
+    
+	
+    public List<ContentPage> lehed=new List<ContentPage>() { new TextPage(0), new FigurePage(1), new DateTimePage(2), new SliderStepperPage(3), new RGB_mudel(4), new PickerImagePage(5),new DialogPage(),new TablePage() , new FailidePage(), new CarouselPage()};
+	public List<string> tekstid = new List<string> { "Tee lahti TextPage", "Tee lahti FigurePage","Tee lahti DateTimePage", "Tee lahti SliderStepperPage", "RGB mudeli leht" , "Leht piltidega","Ava dialoog aknad","Ava tabel", "Töö failidega","Kuva karusel"};
 	Image img;
     ScrollView sv;
 	VerticalStackLayout vst;

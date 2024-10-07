@@ -16,7 +16,8 @@ namespace MauiApp_TARgv23
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
+            
 #endif
 
             return builder.Build();

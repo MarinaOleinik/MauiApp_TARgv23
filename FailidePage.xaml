@@ -36,7 +36,7 @@
             </ListView>
         </ScrollView>
             <VerticalStackLayout Grid.Row="5">
-                <Label Text="Faili sisu loendist:" FontSize="Title"/>
+                <Label Text="Faili sisu loendis:" FontSize="Title"/>
                 <ListView x:Name="ListFailist">
                     <ListView.ItemTemplate>
                         <DataTemplate>

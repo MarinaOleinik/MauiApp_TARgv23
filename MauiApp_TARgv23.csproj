@@ -66,6 +66,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\ionicons.ttf" />
 	  <None Remove="Resources\Fonts\Lobster Regular 400.ttf" />
 	  <None Remove="Resources\Fonts\Socafe 400.otf" />
 	  <None Remove="Resources\Image1.png" />
@@ -77,6 +78,7 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.0-preview.7.24407.4" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0-preview.7.24405.7" />
+		<PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -95,6 +97,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="CarouselPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="DateTimePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
